@@ -112,6 +112,8 @@ When I've made a particularly ugly and long winded query, I'll remind myself wha
 
 Because it's removing items that match the quoted query, you can put whatever you want in there. It's great.
 
+If you're looking for something in a specific condition but your query returns nothing, there's a trick to creating a search alert for it. Ebay only displays condition types that are found within your current query. If a "used" item is not available, you can do a very general search (ex.: `drill`), toggle the appropriate boxes filtering by condition, then narrow the search again (ex.: `drill makita XPH07`). For now, you'll probably get zero results, but the filters from the more general search will carry over. You can now save this search and you'll get notified when something matches it.
+
 # Laptop shopping:
 
 Pick a few characteristics that you want and build up a bottom up query from there. I might start with something like:
