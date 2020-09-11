@@ -1,6 +1,6 @@
 # ebay-guide
 
-So you want to buy something! Ebay is great but it can be a little tricky finding exactly the thing you want. With a bit of patience and extra effort, you can find some incredible deals.
+So, you want to buy something! Ebay is great but it can be a little tricky finding exactly the thing you want, especially if you're used to shinier more curated marketplaces like Amazon. Ebay sells everything from brand new cars to obscure & out of production machine parts. With a bit of patience and effort, you can find some incredible deals.
 
 As an example item, we'll use one of my favorite objects: **Shure SE215 sound isolating earphones**
 
@@ -63,6 +63,8 @@ For each listing, read the description closely and look at each photo. Most of t
 If the seller says it works, and it doesn't work, Ebay has a really good return policy and they'll make the seller pay the return shipping. They'll accept a return for a nonfunctional item even if the seller "does not accept returns". This is relatively uncommon but still worth remembering.
 
 Caveat for medium sized to large items: keep an eye out for "local pickup only". This means, "literally drive to the seller's house and cart it away. It's sad because sometimes you'll see something for 20% or more less than every other item but it's "local pickup only" in rural Nebraska. Most of the time the seller is clear on that, but very occasionally they'll say "free shipping" or provide a wild estimate but actually inclue the full shipping terms in the item description.
+
+If you're buying a common consumer good (toothpaste for example), there's a good chance the results you see will include dropshipped items from Amazon, Walmart or another major retailer. It probably violates the TOS somewhere, but the seller will paste your name and address into the shipping info and the item will be sent to you. Occasionally, I'll receive an amazon package in the mail, be briefly confused, then realize that's what's happening. The seller makes an extra dollar or two (on top of the Prime price of the item) and you'll get questionably ethical free shipping.
 
 # Auctions:
 
