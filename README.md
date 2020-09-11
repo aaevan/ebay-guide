@@ -132,8 +132,8 @@ Here, especially (for used computers), the watcher count ("5 watching") and view
 
 # Comments/suggestions/typos:
 
-I'm on twitter at @aoeb-- message me there or submit a pull request and I'll try to include it!
+I'm on twitter at @aoeb-- message me there or submit a pull request and I'll see about including your tip/technique (giving you full credit)!
 
-I spend quite a lot of time on ebay (less now that I'm good at it), so I figured I'd share what I've learned.
+I spend quite a lot of time on ebay so I figured I'd share what I've learned.
 
 Long live cheap stuff from internet randos!
