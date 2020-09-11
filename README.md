@@ -70,7 +70,7 @@ If you're willing to be patient, auctions consistently have better prices than *
 
 The basic idea is, as close to the end of the auction as possible (about 5-10s within the end of bidding), place a bid that is the maximum value you'd be willing to pay, followed by a semi-random cents value. If your max purchase price is $50, it's likely that someone else's max is around there too. Throw some noise on the end of your number to increase your chances of winning the auction. A max bid of $51.73 is better than $50.00.
 
-Often, if you bid slightly higher than your lower bound estimate within the last few seconds of a listing, you can get something for
+Often, if you bid slightly higher than your lower bound estimate within the last few seconds of a listing, you can get something for a ridiculously good deal.
 
 Add things to your watchlist if you'd like to buy it in the future.
 
@@ -78,19 +78,27 @@ Add things to your watchlist if you'd like to buy it in the future.
 
 So, say you want to buy a common class of item, but it doesn't really matter exactly what model you get. Let's use a usb battery bank as an example.
 
-> usb batter
+> usb battery bank
 
 This will return a lot of garbage listings. To start with, narrow down by location, condition and price. Next, do a ~~google~~ duckduckgo search a few "best <item name> 2020" object lists. Wirecutter is generally pretty good starting place, but sometimes they aren't too thorough with their durability testing. If you see a brand dominate across two or more different lists, (in our case, let's say **Anker** and **Jackery**), let's add those brands to our search query. If there are multiple high quality brands in the same space, we can use an or operator:
  
-> usb battery '(anker, jackery)'
+> usb battery bank'(anker, jackery)'
 
 syntax is, '(query1, query2, query3)', don't forget the commas. It might be tempting to use more than one or in a search, but things start to get strange. Try to keep it to one.
 
 You'll see immediately a whole bunch of things you don't want. After culling the largest number with the above methods (shipping from, condition, etc.) start weeding out extra listings aggressively using quoted minus operators:
 
-> usb battery '(anker, jackery)' -5000 -10000 -mini
+> usb battery bank '(anker, jackery)' -5000 -10000 -mini
 
 I only occasionally make search strings long enough that ebay complains. Go wild. If you only see a handful of results for your query, first try trimming away extra words to broaden your search. If the number of search results explodes, you probably got rid of a useful keyboard. Go back and try again.
+
+> usb battery '(anker, jackery)' -5000 -10000 -mini
+
+Also, if you want get even more tedious, start with just the brand names you'd accept and cull away things that aren't what you want.
+
+'(anker, jackery)' -5000 -10000 -mini -flashlight -bluetooth -meister -vintage -sports -sport -watch -earbud -wireless
+
+This query was a dead end but it's an interesting example. Watch the results count and if you see it suddenly increase after a new minus clause that means you've hit some sort of ceiling. Go back and try something more specific.
 
 # Obscure or rare items:
 
