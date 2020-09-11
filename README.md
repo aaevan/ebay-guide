@@ -44,6 +44,8 @@ Are you willing to buy a used item? If so, on the sidebar under **Condition**, c
 - [X] Used
 - [ ] For parts or not working
 
+*note: It's not applicable for this search, but for some items, the actual manufacturer will sell factory refurbished items at a steep discount. Worth checking out.*
+
 The shorter the query, the more noise you're going to get. Scan down the page and if you see an object repeated (say, a travel case or some totally unrelated class of objects), add a minus clause to your search. In our example, we want a complete set (earbuds, cable and case) so let's cull all listings with the string "no cable".
 
 > se215 -"no cable"
@@ -88,8 +90,24 @@ You'll see immediately a whole bunch of things you don't want. After culling the
 
 > usb battery '(anker, jackery)' -5000 -10000 -mini
 
-I only occasionally make search strings long enough that ebay complains. Go wild.
+I only occasionally make search strings long enough that ebay complains. Go wild. If you only see a handful of results for your query, first try trimming away extra words to broaden your search. If the number of search results explodes, you probably got rid of a useful keyboard. Go back and try again.
 
 # Obscure or rare items:
 
-If you only see a handful of results for your query.
+Okay, so you've done all this and there's only two listings and they're each out of your price range or otherwise invalid? Time to save your search.
+
+After saving a search, you'll get emails or push notifications (your choice) any time a new listing is created that matches your query.
+
+When I've made a particularly ugly and long winded query, I'll remind myself what the query is for by including a minus clause at the beginning:
+
+> -"CHEAP ANKER OR JACKERY" usb battery '(anker, jackery)' -5000 -10000 -mini
+
+Because it's removing items that match the quoted query, you can put whatever you want in there. It's great.
+
+# Comments/suggestions/typos:
+
+I'm on twitter at @aoeb-- message me there or submit a pull request and I'll try to include it!
+
+I spend quite a lot of time on ebay (less now that I'm good at it), so I figured I'd share what I've learned.
+
+Long live cheap stuff from internet randos!
