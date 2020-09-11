@@ -96,7 +96,7 @@ I only occasionally make search strings long enough that ebay complains. Go wild
 
 Also, if you want get even more tedious, start with just the brand names you'd accept and cull away things that aren't what you want.
 
-'(anker, jackery)' -5000 -10000 -mini -flashlight -bluetooth -meister -vintage -sports -sport -watch -earbud -wireless
+> '(anker, jackery)' -5000 -10000 -mini -flashlight -bluetooth -meister -vintage -sports -sport -watch -earbud -wireless
 
 This query was a dead end but it's an interesting example. Watch the results count and if you see it suddenly increase after a new minus clause that means you've hit some sort of ceiling. Go back and try something more specific.
 
