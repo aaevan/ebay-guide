@@ -76,17 +76,17 @@ Add things to your watchlist if you'd like to buy it in the future.
 
 # The "Bottom up" method:
 
-So, say you want to buy a common class of item, but it doesn't really matter exactly what model you get. Let's use a usb battery bank as an example.
+So, say you want to buy a common item, but it doesn't really matter exactly what model you get as long as it's decent quality. Let's use a usb battery bank as an example:
 
 > usb battery bank
 
-This will return a lot of garbage listings. To start with, narrow down by location, condition and price. Next, do a ~~google~~ duckduckgo search a few "best <item name> 2020" object lists. Wirecutter is generally pretty good starting place, but sometimes they aren't too thorough with their durability testing. If you see a brand dominate across two or more different lists, (in our case, let's say **Anker** and **Jackery**), let's add those brands to our search query. If there are multiple high quality brands in the same space, we can use an or operator:
+This will return a lot of garbage listings. To start with, narrow down by location, condition and price. Next, do a ~~google~~ duckduckgo search a few "best class-of-item 2020" object lists. Wirecutter is generally pretty good starting place, but sometimes they aren't too thorough with their durability testing. If you see a brand dominate across two or more different lists, (in our case, let's say **Anker** and **Jackery**), let's add those brands to our search query. If there are multiple high quality brands in the same space, we can use an **OR** operator:
  
-> usb battery bank'(anker, jackery)'
+> usb battery bank '(anker, jackery)'
 
-syntax is, '(query1, query2, query3)', don't forget the commas. It might be tempting to use more than one or in a search, but things start to get strange. Try to keep it to one.
+The syntax is, '(query1, query2, query3)', don't forget the commas. It might be tempting to use more than one **OR** in a search, but things start to get strange. Try to keep it to one or split your search into multiple saved searches.
 
-You'll see immediately a whole bunch of things you don't want. After culling the largest number with the above methods (shipping from, condition, etc.) start weeding out extra listings aggressively using quoted minus operators:
+You'll see immediately a whole bunch of things you don't want. After culling the largest number with the above methods (shipping from, condition, etc.) start weeding out extra listings aggressively using quoted minus operators. Try to pick a string that's unique to the listings you're culling:
 
 > usb battery bank '(anker, jackery)' -5000 -10000 -mini
 
@@ -98,7 +98,7 @@ Also, if you want get even more tedious, start with just the brand names you'd a
 
 > '(anker, jackery)' -5000 -10000 -mini -flashlight -bluetooth -meister -vintage -sports -sport -watch -earbud -wireless
 
-This query was a dead end but it's an interesting example. Watch the results count and if you see it suddenly increase after a new minus clause that means you've hit some sort of ceiling. Go back and try something more specific.
+This query was a dead end but it's a good example of how long queries can get. Watch the results count and if you see it suddenly increase after a new minus clause that means you've hit some sort of invisible ceiling. Go back and try something more specific.
 
 # Obscure or rare items:
 
@@ -124,7 +124,7 @@ Don't like something? Trim it away:
 
 Next, trim off your results by your max budget and sort by "Price + Shipping: highest first".
 
-The idea is to buy as much computer as you can within your budget. As a thought experiment, try halving your first budget and see if you find anything acceptable. $250 goes a long ways, especially if you're willing to do a bit of work yourself (installing your own OS or buying a harddrive). The past two computers I've bought (both thinkpads) were $115 and $240 respectively (shipped).
+The idea is to buy as much computer as you can within your budget. As a thought experiment, try halving your first budget and see if you find anything acceptable. $250 goes a long ways, especially if you're willing to do a bit of work yourself (especially, installing your own OS on a hard drive you buy separately). The past two computers I've bought (both thinkpads) were $115 and $240 respectively (shipped).
 
 Try to go with a seller that accepts returns and avoid "as is"/"for parts or repair" listings.
 
