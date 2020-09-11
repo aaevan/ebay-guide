@@ -2,9 +2,7 @@
 
 So, you want to buy something! Ebay is great but it can be a little tricky finding exactly the thing you want, especially if you're used to shinier more curated marketplaces like Amazon. Ebay sells everything from brand new cars to obscure & out of production machine parts. With a bit of patience and effort, you can find some incredible deals.
 
-As an example item, we'll use one of my favorite objects: **Shure SE215 sound isolating earphones**
-
-This is a good example because the ones I'm still using two years later I got used on ebay for about half of retail.
+As an example item, we'll use one of my favorite objects: **Shure SE215 sound isolating earphones** Two years later, I'm still the pair I got used on ebay (for roughly half or retail).
 
 A few questions to start our search:
 
