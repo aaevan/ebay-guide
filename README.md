@@ -90,7 +90,7 @@ You'll see immediately a whole bunch of things you don't want. After culling the
 
 > usb battery bank '(anker, jackery)' -5000 -10000 -mini
 
-I only occasionally make search strings long enough that ebay complains. Go wild. If you only see a handful of results for your query, first try trimming away extra words to broaden your search. If the number of search results explodes, you probably got rid of a useful keyboard. Go back and try again.
+I only occasionally make search strings long enough that ebay complains. Go wild. If you only see a handful of results for your query, first try trimming away extra words to broaden your search. If the number of search results explodes, you probably got rid of a useful keyword. Go back and try again.
 
 > usb battery '(anker, jackery)' -5000 -10000 -mini
 
