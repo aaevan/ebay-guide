@@ -102,7 +102,7 @@ This query was a dead end but it's a good example of how long queries can get. W
 
 # Obscure or rare items:
 
-Okay, so you've done all this and there's only two listings and they're each out of your price range or otherwise invalid? Time to save your search.
+Okay, so you've done all this and there's only two listings and they're each out of your price range? Time to save your search.
 
 After saving a search, you'll get emails or push notifications (your choice) any time a new listing is created that matches your query.
 
