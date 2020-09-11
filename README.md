@@ -20,19 +20,19 @@ A few questions to start our search:
 
 * How much does your item generally sell for?
   * To get an upper bound, check Amazon and a few other retailers. Amazon tends to be 10 to 20% more expensive than the best deal on ebay. (*citation needed*)
-  * For the lower bound, check the "sold listings" box and sort by "Price + Shipping: lowest first
+  * For the lower bound, check the "sold listings" box and sort by "Price + Shipping: lowest first".
 
 Okay, so we now have an upper and lower bound on the price of the item (SE215: $99 new from amazon, roughly $30, shipping included from ebay). Time to start searching.
 
 # A basic search:
 
-To start, type in the shortest unique string in your product name (found via Amazon etc.). Amazon is evil but it's totally valid to use it as a directory.
+To start, in the search bar type in the shortest unique string in your product name (found via Amazon etc.). Amazon is evil but it's totally valid to use it as a directory.
 
 In our example case, there's pretty much only one object with the string "SE215" in it, so we can trim our query down to that.
 
 > se215
 
-Ebay doesn't care about capitalization. If your search string is close to a common word, it might try to autocorrect your string to a dictionary word. Put quotes around your search to be sure that exact string appears in the listing title.
+Ebay doesn't care about capitalization. If a word in your search string is close to a common word, it might try to autocorrect your string to a dictionary word. Put quotes around your search to be sure that exact string appears in the listing title.
 
 > "se215"
 
@@ -62,7 +62,7 @@ For each listing, read the description closely and look at each photo. Most of t
 
 If the seller says it works, and it doesn't work, Ebay has a really good return policy and they'll make the seller pay the return shipping. They'll accept a return for a nonfunctional item even if the seller "does not accept returns". This is relatively uncommon but still worth remembering.
 
-caveat for medium sized to large items: keep an eye out for "local pickup only". This means, "literally drive to the seller's house and cart it away. It's sad because sometimes you'll see something for 20% or more less than every other item but it's "local pickup only" in rural Nebraska. Most of the time the seller is clear on that, but very occasionally they'll say "free shipping" or provide a wild estimate but actually inclue the full shipping terms in the item description.
+Caveat for medium sized to large items: keep an eye out for "local pickup only". This means, "literally drive to the seller's house and cart it away. It's sad because sometimes you'll see something for 20% or more less than every other item but it's "local pickup only" in rural Nebraska. Most of the time the seller is clear on that, but very occasionally they'll say "free shipping" or provide a wild estimate but actually inclue the full shipping terms in the item description.
 
 # Auctions:
 
@@ -111,6 +111,24 @@ When I've made a particularly ugly and long winded query, I'll remind myself wha
 > -"CHEAP ANKER OR JACKERY" usb battery '(anker, jackery)' -5000 -10000 -mini
 
 Because it's removing items that match the quoted query, you can put whatever you want in there. It's great.
+
+# Laptop shopping:
+
+Pick a few characteristics that you want and build up a bottom up query from there. I might start with something like:
+
+> thinkpad i7 ssd 16gb
+
+Don't like something? Trim it away:
+
+> thinkpad i7 ssd 16gb -yoga
+
+Next, trim off your results by your max budget and sort by "Price + Shipping: highest first".
+
+The idea is to buy as much computer as you can within your budget. As a thought experiment, try halving your first budget and see if you find anything acceptable. $250 goes a long ways, especially if you're willing to do a bit of work yourself (installing your own OS or buying a harddrive). The past two computers I've bought (both thinkpads) were $115 and $240 respectively (shipped).
+
+Try to go with a seller that accepts returns and avoid "as is"/"for parts or repair" listings.
+
+Here, especially (for used computers), the watcher count ("5 watching") and views count ("5 per hour") is a particularly good indicator of a good deal. Sometimes if there are a high number of views but few watchers, that *might* be an indicator that there's something subtly wrong with the item listed ("small mark on screen").
 
 # Comments/suggestions/typos:
 
