@@ -7,18 +7,19 @@ As an example item, we'll use one of my favorite objects: **Shure SE215 sound is
 A few questions to start our search:
 
 * Is authenticity a concern (any name-brand electronics or small high value items)?
-  * Unless it's something obscure or high value, we probably want to buy from the US. (I'm assuming a US audience)
+  * If it's something high value, we probably want to buy from the US or Canada. (I'm assuming a US audience)
   * Make sure to buy from a reputable seller. Check out their seller rating: basically anything under 99% is sketchy.
+  * Be wary of new items sold by sellers with under about 50 transactions (the number next to the seller name).
 * Ask, am I willing to wait up to a month and a half for it to get here?
   * If so, it might make sense to buy direct from china through ebay listings or something like aliexpress.
     * Aliexpress has a particularly messy and unpredictable search function so don't try to use any fancy operators like you'll see below.
-    * If you're buying small quantities of electronics or machine parts that aren't system critical, Aliexpress is for you. (Arduino clones for $2? yes please.)
-  * If you're not willing to wait that long, under **Item Location**, make sure to check the box that says, North America. 
+    * If you're buying small quantities of electronics or machine parts that aren't system-critical, Aliexpress is for you.
+    * Comparing prices between items on eBay shipped from china and those found on Aliexpress, Aliexpress tends to be marginally cheaper.
+  * If you're not willing to wait that long, in the filter sidebar under **Item Location** (I'm assuming you're searching from a laptop), make sure to check the box that says, North America.
     * generally, ordering something from somewhere from the continental US will take a week or two *max* to get to you.
-
-* How much does your item generally sell for?
-  * To get an upper bound, check Amazon and a few other retailers. Amazon tends to be 10 to 20% more expensive than the best deal on ebay. (*citation needed*)
-  * For the lower bound, check the "sold listings" box and sort by "Price + Shipping: lowest first".
+* How much does your item generally retail for?
+  * To get an upper bound, check Amazon and a few other retailers. Amazon tends to be about 10 to 20% more expensive than the best deal on ebay.
+  * For the lower bound, check the "sold listings" box and sort by "Price + Shipping: lowest first" and take a rough average of recent sales.
 
 Okay, so we now have an upper and lower bound on the price of the item (SE215: $99 new from amazon, roughly $30, shipping included from ebay). Time to start searching.
 
@@ -68,25 +69,35 @@ If you're buying a common consumer good (toothpaste for example), there's a good
 
 If you're willing to be patient, auctions consistently have better prices than **Buy It Now** listings but it comes at the cost of scheduling 10m out of your life to stare at the last few minutes of a listing. Bids made before the last minute or two are basically meaningless for low value items. If you're buying a car on ebay, then, this isn't the guide for you.
 
-The basic idea is, as close to the end of the auction as possible (about 5-10s within the end of bidding), place a bid that is the maximum value you'd be willing to pay, followed by a semi-random cents value. If your max purchase price is $50, it's likely that someone else's max is around there too. Throw some noise on the end of your number to increase your chances of winning the auction. A max bid of $51.73 is better than $50.00.
+The basic idea is, find an item you'd be willing to buy that is currently at or below your desired price point. Especially for items with >10 watchers, you'll often see a flurry of bidding in the last few minutes-- don't even try to participate in that though. As close to the end of the auction as possible (i.e. within 5-10s of the end of the listing), place a bid that is the maximum value you'd be willing to pay, followed by a semi-random cents value. If your max purchase price is $50, it's likely that someone else's max is around there too. Throw some noise on the end of your number to increase your chances of winning the auction. A max bid of $51.73 is better than $50.00.
 
-Often, if you bid slightly higher than your lower bound estimate within the last few seconds of a listing, you can get something for a ridiculously good deal.
+For a heavily watched item, there's a decent chance someone else is doing exactly the same thing (bidding in the last few seconds), so, it's a bit of a gamble whether you'll win the auction. If the price shoots way above your guess, update your guess and try again next time.
 
-Add things to your watchlist if you'd like to buy it in the future.
+Add things to your watchlist if you'd consider buying it in the future.
+
+Most of the time, when I'm buying low value items (under $30?) I'm willing to pay a few dollars to not go through this process. It's definitely worth your time for higher value items. If your item is a little obscure and there are not many watchers, you can often swoop in and win an auction with almost no competition.
 
 # The "Bottom up" method:
 
-So, say you want to buy a common item, but it doesn't really matter exactly what model you get as long as it's decent quality. Let's use a usb battery bank as an example:
+Sometimes, it doesn't matter what model or brand you get. One of my favorite ways to use eBay is to start with an extremely general search and build up a query from a few things you do want and a bunch of things you don't want. For a given class of item, there's likely to be a few under-valued listings, it's just a matter of finding them. Let's use a usb battery bank as an example:
 
-> usb battery bank
+`usb battery bank` (23546 listings)
 
-This will return a lot of garbage listings. To start with, narrow down by location, condition and price. Next, do a ~~google~~ duckduckgo search a few "best class-of-item 2020" object lists. Wirecutter is generally pretty good starting place, but sometimes they aren't too thorough with their durability testing. If you see a brand dominate across two or more different lists, (in our case, let's say **Anker** and **Jackery**), let's add those brands to our search query. If there are multiple high quality brands in the same space, we can use an **OR** operator:
- 
-> usb battery bank '(anker, jackery)'
+This will return a lot of garbage listings . To start with, narrow down by location, condition and price (9741 listings). Next, do a ~~google~~ duckduckgo search a few "best class-of-item 2020" object lists. Wirecutter is generally pretty good starting place, but sometimes they aren't too thorough with their durability testing. It's likely the "best" items from recent lists will have heavy competition, but if you don't need the very newest thing, you can sometimes look at a "best of" list from a few years back and find a totally acceptable solution at 2/3 or 1/2 the price. If you see a brand dominate across two or more "best of" lists, (in our case, let's say for example, **Anker** and **Jackery**), add those brands to our search query. If there are multiple high quality brands or common models, we can use an **OR** operator:
 
-The syntax is, '(query1, query2, query3)', don't forget the commas. It might be tempting to use more than one **OR** in a search, but things start to get strange. Try to keep it to one or split your search into multiple saved searches.
+Filtered by condition:
+`usb battery bank'`condition: **open box**, **seller refurbished** or **used** (359 results)
 
-You'll see immediately a whole bunch of things you don't want. After culling the largest number with the above methods (shipping from, condition, etc.) start weeding out extra listings aggressively using quoted minus operators. Try to pick a string that's unique to the listings you're culling:
+Filtered by condition and an **OR** clause:
+`usb battery bank '(powercore, 20100, 20000, 26800)' condition: **open box**, **seller refurbished** or **used**` (11 results)
+
+The syntax is, '(query1, query2, query3)', don't forget the commas. You can also **OR** together quoted strings (or a mix of quoted and unquoted strings), just be sure to use double quotes instead of single quotes inside the **OR** block's parentheses:
+
+`usb battery bank '("powercore 20100", "powercore 20000")'`
+
+It might be tempting to use more than one **OR** in a search, but things start to get strange. Try to keep it to one or split your search into multiple saved searches.
+
+You'll see immediately a whole bunch of things you don't want. After culling the largest number with the above methods (shipping from, condition, etc.) start weeding out extra listings aggressively using quoted minus operators. Try to pick a string that's common to multiple listings you don't want to see:
 
 > usb battery bank '(anker, jackery)' -5000 -10000 -mini
 
