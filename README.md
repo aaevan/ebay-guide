@@ -1,6 +1,6 @@
 # ebay-guide
 
-So, you want to buy something! Ebay is great but it can be a little tricky finding exactly the thing you want, especially if you're used to shinier more curated marketplaces like Amazon. Ebay sells everything from brand new cars to obscure & out of production machine parts. With a bit of patience and effort, you can find some incredible deals.
+Ebay is great but it can be a little tricky finding the best deals, especially if you're used to shinier more curated marketplaces like Amazon. Ebay sells everything from brand new cars to obscure & out of production machine parts. With a bit of patience and effort, you can find some incredible deals.
 
 As an example item, we'll use one of my favorite objects: **Shure SE215 sound isolating earphones** Two years later, I'm still using the pair I got used on ebay (for roughly half or retail).
 
@@ -25,17 +25,19 @@ Okay, so we now have an upper and lower bound on the price of the item (SE215: $
 
 # A basic search:
 
-To start, in the search bar type in the shortest unique string in your product name (found via Amazon etc.). Amazon is evil but it's totally valid to use it as a directory.
+To start, in the search bar type in the shortest unique string in your product name (found via Amazon etc.). Amazon is evil but it's totally valid to use it as a directory. In our example case, there's pretty much only one object with the string "SE215" in it, so we can trim our query down to that.
 
-In our example case, there's pretty much only one object with the string "SE215" in it, so we can trim our query down to that.
+`se215`
 
-> se215
+Ebay searches don't care about capitalization or word order. `se215 headphones` returns the same results as `headphones SE215`.
 
-Ebay doesn't care about capitalization. If a word in your search string is close to a common word, it might try to autocorrect your string to a dictionary word. Put quotes around your search to be sure that exact string appears in the listing title.
+If you need it soon, and you're willing to pay a small premium, just below the search bar, click the "Buy it Now" button. Sorted by "Price + Shipping: lowest first".
 
-> "se215"
+If a word in your search string is close to a common word, it may try to autocorrect your string to a dictionary word. Put quotes around your search to be sure that exact string appears in the listing title.
 
-Are you willing to buy a used item? If so, on the sidebar under **Condition**, click, "see all" and check everything that isn't new. "New" items are likely to be close in price to retail and, we want a good deal, so we'll start by ignoring everything that is "new". Also, we want something that *works*, save some time and don't check "For parts or not working".
+`"se215"`
+
+Are you willing to buy a used item? If so, on the sidebar under **Condition**, click, "see all" and check everything that isn't new. **New** items are likely to be close in price to retail, so we can start by ignoring everything that is "new". Also, we want something that *works*, so we'll save some time and leave "For parts or not working" unchecked:
 
 - [ ] New
 - [X] Open Box
@@ -45,33 +47,32 @@ Are you willing to buy a used item? If so, on the sidebar under **Condition**, c
 
 *note: It's not applicable for this search, but for some items, the actual manufacturer will sell factory refurbished items at a steep discount. Worth checking out.*
 
-The shorter the query, the more noise you're going to get. Scan down the page and if you see an object repeated (say, a travel case or some totally unrelated class of objects), add a minus clause to your search. In our example, we want a complete set (earbuds, cable and case) so let's cull all listings with the string "no cable".
+The shorter the query, the more noise you're going to get. I like to iteratively filter out large chunks of the original results until it's just a few pages or results. Another useful technique is to add a minus clause to your search. In our example, we want a complete set (earbuds, cable and case) so let's filter out all listings with the string "no cable".
 
 > se215 -"no cable"
 
-Okay, so now we should have quite a few options. If you need it soon, and you're willing to pay a small premium (still probably cheaper than amazon), along the top, just below the search bar, click the "Buy it Now" tab. Sorted by "Price + Shipping: lowest first", you should have now a short list of candidates.
+Okay, so now we should have a much more manageable number of results. 
 
-A rough gauge of how good of a deal something is is to look for the "*n* watched in last hour". If you see more than about 5 watchers on an item and it's a single count buy it now auction, chances are you're looking at a particularly good deal. If it's something from china or if it has fancy glossy product photos and it has a high watcher count, you're probably looking at a artificially created watcher count.
+If a listing is getting a lot of traffic (either new watchers or many views), you'll see a red "*n* watched in last hour" or a "*n* watched in the last day" message. If you see a listing for a single lot that more than about 5 watchers on an item, there's a good chance that you're looking at a good deal. If it's something from china or if it has fancy glossy product photos and it has a high watcher count, you're probably looking at a artificially created watcher count.
 
 If you're buying something kinda obscure, you might only get 2 or 3 active listings, but that's what the "Save this search" button is for (see below).
 
 If it's substantially cheaper than surrounding listings (especially for buy it now listings), there's a small chance that the seller is pulling some kind of scam. I've only had this happen to me maybe twice in my hundreds of ebay purchases but it's worth watching out for. If it's "buy it now" for $20 cheaper than its competition and you're baffled how they could ship something for that much, it's probably too good to be true. That said, occasionally someone will sell factory seconds of something for a greatly reduced price, so don't automatically discount a low price.
 
-For each listing, read the description closely and look at each photo. Most of the time, the seller will have a 1-2 line blurb about the condition of the item.
-
+For each listing, read the description closely and look at each photo. Most of the time, the seller will have a 1-2 line blurb about the condition of the item. 
 If the seller says it works, and it doesn't work, Ebay has a really good return policy and they'll make the seller pay the return shipping. They'll accept a return for a nonfunctional item even if the seller "does not accept returns". This is relatively uncommon but still worth remembering.
 
-Caveat for medium sized to large items: keep an eye out for "local pickup only". This means, "literally drive to the seller's house and cart it away. It's sad because sometimes you'll see something for 20% or more less than every other item but it's "local pickup only" in rural Nebraska. Most of the time the seller is clear on that, but very occasionally they'll say "free shipping" or provide a wild estimate but actually inclue the full shipping terms in the item description.
+Caveat for medium sized to large items: keep an eye out for "local pickup only". This means, "literally drive to the seller's house and cart it away. It can be frustrating because sometimes you'll see something for 20% or more less than every other item but it's "local pickup only" in rural Nebraska. Most of the time the seller is clear on that, but very occasionally they'll say "free shipping" or provide a wild estimate but actually inclue the full shipping terms in the item description. Be extra careful navigating shipping costs for large items. It might just say "freight" and that's almost guaranteed to be upsettingly expensive.
 
-If you're buying a common consumer good (toothpaste for example), there's a good chance the results you see will include dropshipped items from Amazon, Walmart or another major retailer. It probably violates the TOS somewhere, but the seller will paste your name and address into the shipping info and the item will be sent to you. Occasionally, I'll receive an amazon package in the mail, be briefly confused, then realize that's what's happening. The seller makes an extra dollar or two (on top of the Prime price of the item) and you'll get questionably ethical free shipping.
+If you're buying a common consumer good (toothpaste for example), there's a good chance that you'll see dropshipped items from Amazon, Walmart or another major retailer. It probably violates the TOS somewhere, but the seller will paste your name and address into the shipping info and the item will be sent to you. Occasionally, I'll receive a surprise amazon package in the mail, be briefly confused, then realize that's what's happening. The seller makes an extra dollar or two (on top of the Prime price of the item) and you'll get questionably ethical free shipping.
 
 # Auctions:
 
-If you're willing to be patient, auctions consistently have better prices than **Buy It Now** listings but it comes at the cost of scheduling 10m out of your life to stare at the last few minutes of a listing. Bids made before the last minute or two are basically meaningless for low value items. If you're buying a car on ebay, then, this isn't the guide for you.
+If you're willing to be patient, auctions consistently have better prices than **Buy It Now** listings but it comes at the cost of scheduling 10m out of your life to stare at the last few minutes of a listing. For relatively low value items, bids made before the last minute or two are basically meaningless. The rules are a little different for high value items and that's not something I have any experience with.
 
-The basic idea is, find an item you'd be willing to buy that is currently at or below your desired price point. Especially for items with >10 watchers, you'll often see a flurry of bidding in the last few minutes-- don't even try to participate in that though. As close to the end of the auction as possible (i.e. within 5-10s of the end of the listing), place a bid that is the maximum value you'd be willing to pay, followed by a semi-random cents value. If your max purchase price is $50, it's likely that someone else's max is around there too. Throw some noise on the end of your number to increase your chances of winning the auction. A max bid of $51.73 is better than $50.00.
+The basic idea is, find an item you'd be willing to buy that is currently at or below your desired price point. Especially for a listing with >10 watchers, you'll often see a flurry of bidding in the last few minutes-- don't even try to participate in that though. As close to the end of the auction as possible (i.e. within 5-10s of the end of the listing), place a bid that is the maximum value you'd be willing to pay, followed by a semi-random cents value. If your max purchase price is $50, it's likely that someone else's max is around there too. Throw some noise on the end of your number to increase your chances of winning the auction. A max bid of $51.73 is better than $50.00.
 
-For a heavily watched item, there's a decent chance someone else is doing exactly the same thing (bidding in the last few seconds), so, it's a bit of a gamble whether you'll win the auction. If the price shoots way above your guess, update your guess and try again next time.
+For a heavily watched item, there's a decent chance someone else is doing exactly the same thing (bidding in the last few seconds), so, it's a bit of a gamble whether you'll win the auction. If the price shoots way above your guess, update your guess and try again next time. At a vague guess, I'd say somewhere between 1 in 5 to 1 in 10 watchers will actually participate in the last minute bidding.
 
 Add things to your watchlist if you'd consider buying it in the future.
 
