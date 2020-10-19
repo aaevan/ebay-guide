@@ -84,6 +84,8 @@ Sometimes, it doesn't matter what model or brand you get. One of my favorite way
 
 `usb battery bank` (23546 listings)
 
+First, to make sure we're not missing any miscategorized items, in the top-most section of the left sidebar under **Categories**, select "All".
+
 This will return a lot of garbage listings . To start with, narrow down by location, condition and price (9741 listings). Next, do a ~~google~~ duckduckgo search a few "best class-of-item 2020" object lists. Wirecutter is generally pretty good starting place, but sometimes they aren't too thorough with their durability testing. It's likely the "best" items from recent lists will have heavy competition, but if you don't need the very newest thing, you can sometimes look at a "best of" list from a few years back and find a totally acceptable solution at 2/3 or 1/2 the price. If you see a brand dominate across two or more "best of" lists, (in our case, let's say for example, **Anker** and **Jackery**), add those brands to our search query. If there are multiple high quality brands or common models, we can use an **OR** operator:
 
 Filtered by condition:
